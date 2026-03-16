@@ -10,7 +10,7 @@ Institutional knowledge management for AI-assisted development. This plugin conn
 ## Installation
 
 ```bash
-git clone https://github.com/EthanDev/optimize-mcp-plugin.git
+git clone https://github.com/optimizemcp/optimize-mcp-plugin.git
 claude --plugin-dir ./optimize-mcp-plugin
 ```
 
@@ -85,4 +85,4 @@ This plugin connects to four MCP tools on your Optimize MCP server:
 ## Support
 
 - Documentation: [optimizemcp.com/docs](https://optimizemcp.com/docs)
-- Issues: [github.com/EthanDev/optimize-mcp-plugin/issues](https://github.com/EthanDev/optimize-mcp-plugin/issues)
+- Issues: [github.com/optimizemcp/optimize-mcp-plugin/issues](https://github.com/optimizemcp/optimize-mcp-plugin/issues)
