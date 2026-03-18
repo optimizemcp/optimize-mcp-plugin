@@ -1,0 +1,16 @@
+{
+  "description": "Optimize MCP hooks — checks for required API credentials on session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/.claude-plugin/hooks/setup-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
